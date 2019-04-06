@@ -36,7 +36,7 @@ public class ShopTest {
                 "Purple", "Wood", InstrumentFamily.STRINGS, 9 );
         piano = new Piano("Baby Grand", 3400.00, 9500.00,
                 "Black", "Mahogany", InstrumentFamily.PERCUSSION, "Yamaha");
-        sheetMusic = new SheetMusic("Adagio (in G minor)", 2.00, 4.99);
+        sheetMusic = new SheetMusic("Albinoni's Adagio", 2.00, 4.99);
         trumpet = new Trumpet("C Trumpet", 134.00, 295.00,
                 "Gold", "Brass", InstrumentFamily.BRASS, 9);
 
@@ -68,7 +68,7 @@ public class ShopTest {
         shop.addItem(piano);
         shop.addItem(sheetMusic);
         shop.addItem(sheetMusic);
-        shop.addItem(sheetMusic);
+        shop.addItem(trumpet);
 
         assertEquals(6, shop.countStock());
 
@@ -81,7 +81,6 @@ public class ShopTest {
         shop.addItem(guitar);
         shop.addItem(piano);
         shop.addItem(sheetMusic);
-
         shop.addItem(sheetMusic);
 
         assertEquals(6715.98, shop.calculateProfit(), .1);

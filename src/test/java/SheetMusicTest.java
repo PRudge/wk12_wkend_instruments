@@ -9,13 +9,13 @@ public class SheetMusicTest {
 
     @Before
     public void before(){
-        sheetMusic = new SheetMusic("Adagio (in G minor)", 2.00, 4.99);
+        sheetMusic = new SheetMusic("Albinoni's Adagio", 2.00, 4.99);
 
     }
 
     @Test
     public void canGetDescription(){
-        assertEquals("Adagio (in G minor)", sheetMusic.getDescription());
+        assertEquals("Albinoni's Adagio", sheetMusic.getDescription());
 
     }
 
@@ -44,5 +44,12 @@ public class SheetMusicTest {
     @Test
     public void canGetMarkUp(){
         assertEquals(2.99, sheetMusic.calculateMarkUp(), .01);
+    }
+
+    // added get sales price (10% off)
+
+    @Test
+    public void canGetSalesPrice(){
+        assertEquals(2.49, sheetMusic.calculateSalesPrice(), .1);
     }
 }

@@ -45,4 +45,11 @@ public class PlectrumTest {
     public void canGetMarkUp(){
         assertEquals(4.49, plectrum.calculateMarkUp(), .01);
     }
+
+    // added get sales price (10% off)
+
+    @Test
+    public void canGetSalesPrice(){
+        assertEquals(3.99, plectrum.calculateSalesPrice(), .1);
+    }
 }

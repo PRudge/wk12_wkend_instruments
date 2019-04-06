@@ -39,11 +39,20 @@ public class CornetMuteTest {
 
     }
 
-
     // markup in StockItem - parent class
 
     @Test
     public void canGetMarkUp(){
         assertEquals(24.99, cornetMute.calculateMarkUp(), .01);
     }
+
+
+    // added get sales price (10% off)
+
+    @Test
+    public void canGetSalesPrice(){
+        assertEquals(20.49, cornetMute.calculateSalesPrice(), .1);
+    }
+
+
 }

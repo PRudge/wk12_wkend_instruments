@@ -72,6 +72,14 @@ public class TrumpetTest {
         assertEquals(161.00, trumpet.calculateMarkUp(), .1);
     }
 
+
+    // added get sales price (10% off)
+
+    @Test
+    public void canGetSalesPrice(){
+        assertEquals(131.50, trumpet.calculateSalesPrice(), .1);
+    }
+
     // sound in Instrument - parent class
 
     @Test

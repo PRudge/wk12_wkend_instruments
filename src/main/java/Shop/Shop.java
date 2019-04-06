@@ -8,7 +8,6 @@ public class Shop {
 
     private String shopName;
     private ArrayList<ISell> stock;
-    private ISell stockItem;
 
 
     public Shop(String shopName){
@@ -30,7 +29,9 @@ public class Shop {
     }
 
     public void removeItem(ISell stockItem){
-        this.stock.remove(stockItem);
+        if (stock.size() > 0) {
+            this.stock.remove(stockItem);
+        }
     }
 
     public double calculateProfit(){

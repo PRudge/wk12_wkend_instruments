@@ -73,6 +73,13 @@ public class GuitarTest {
         assertEquals(610.00, guitar.calculateMarkUp(), .1);
     }
 
+    // Override default sales price (10% off) - it's 20% for guitars today
+
+    @Test
+    public void canGetSalesPrice(){
+        assertEquals(420.00, guitar.calculateSalesPrice(), .1);
+    }
+
     // sound in Instrument - parent class
 
     @Test

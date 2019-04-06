@@ -2,7 +2,7 @@ package Stock;
 
 import Interfaces.ISell;
 
-public class StockItem implements ISell {
+public abstract class StockItem implements ISell {
 
     private String description;
     private double buyPrice;
@@ -34,8 +34,11 @@ public class StockItem implements ISell {
     }
 
     public double calculateMarkUp(){
-
         return getSellPrice() - getBuyPrice();
+    }
 
+    public double calculateSalesPrice(){
+        double salePriceDiscount = getSellPrice()/10;
+        return getSellPrice() - salePriceDiscount - getBuyPrice();
     }
 }
