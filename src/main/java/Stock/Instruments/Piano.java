@@ -5,9 +5,9 @@ public class Piano extends Instrument {
     private String make;
 
     public Piano(String description, double buyPrice, double sellPrice, String colour,
-                 String material, String instrumentType, String make) {
+                 String material, InstrumentFamily instrumentFamily, String make) {
 
-        super(description, buyPrice, sellPrice, colour, material, instrumentType);
+        super(description, buyPrice, sellPrice, colour, material, instrumentFamily);
 
         this.make = make;
 

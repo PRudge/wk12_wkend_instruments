@@ -7,8 +7,8 @@ public class Guitar extends Instrument implements IPlay {
     private int numStrings;
 
     public Guitar(String description, double buyPrice, double sellPrice, String colour,
-                  String material, String instrumentType, int numStrings) {
-        super(description, buyPrice, sellPrice, colour, material, instrumentType);
+                  String material, InstrumentFamily instrumentFamily, int numStrings) {
+        super(description, buyPrice, sellPrice, colour, material, instrumentFamily);
 
         this.numStrings = numStrings;
     }

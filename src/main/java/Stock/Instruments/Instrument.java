@@ -7,15 +7,16 @@ public abstract class Instrument extends StockItem implements IPlay {
 
     private String colour;
     private String material;
-    private String instrumentType;
+
+    private InstrumentFamily instrumentFamily;
 
     public Instrument(String description, double buyPrice, double sellPrice,
-                      String colour, String material, String instrumentType ){
+                      String colour, String material, InstrumentFamily instrumentFamily){
         super(description,buyPrice,sellPrice);
 
         this.material = material;
         this.colour = colour;
-        this.instrumentType = instrumentType;
+        this.instrumentFamily = instrumentFamily;
     }
 
     public String getColour() {
@@ -26,8 +27,8 @@ public abstract class Instrument extends StockItem implements IPlay {
         return this.material;
     }
 
-    public String getInstrumentType() {
-        return this.instrumentType;
+    public InstrumentFamily getInstrumentType() {
+        return this.instrumentFamily;
     }
 
 }

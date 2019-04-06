@@ -1,3 +1,4 @@
+import Stock.Instruments.InstrumentFamily;
 import Stock.Instruments.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class TrumpetTest {
     @Before
     public void before(){
         trumpet = new Trumpet("C Trumpet", 134.00, 295.00,
-                "Gold", "Brass", "Wind", 9);
+                "Gold", "Brass", InstrumentFamily.BRASS, 9);
     }
 
     @Test
@@ -52,7 +53,7 @@ public class TrumpetTest {
 
     @Test
     public void canGetInstrumentType(){
-        assertEquals("Wind", trumpet.getInstrumentType());
+        assertEquals(InstrumentFamily.BRASS, trumpet.getInstrumentType());
 
     }
 

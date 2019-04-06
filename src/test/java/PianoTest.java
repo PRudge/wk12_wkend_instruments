@@ -1,3 +1,4 @@
+import Stock.Instruments.InstrumentFamily;
 import Stock.Instruments.Piano;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class PianoTest {
     @Before
     public void before(){
         piano = new Piano("Baby Grand", 3400.00, 9500.00,
-                "Black", "Mahogany", "Keyboard", "Yamaha");
+                "Black", "Mahogany", InstrumentFamily.PERCUSSION, "Yamaha");
     }
 
 
@@ -53,7 +54,7 @@ public class PianoTest {
 
     @Test
     public void canGetInstrumentType(){
-        assertEquals("Keyboard", piano.getInstrumentType());
+        assertEquals(InstrumentFamily.PERCUSSION, piano.getInstrumentType());
 
     }
 

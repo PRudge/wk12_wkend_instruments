@@ -3,6 +3,7 @@ import Interfaces.ISell;
 import Shop.Shop;
 import Stock.Accessories.SheetMusic;
 import Stock.Instruments.Guitar;
+import Stock.Instruments.InstrumentFamily;
 import Stock.Instruments.Piano;
 import Stock.Instruments.Trumpet;
 import org.junit.Before;
@@ -32,12 +33,12 @@ public class ShopTest {
         stock = new ArrayList<>();
 
         guitar = new Guitar("Gibson", 340.00, 950.00,
-                "Purple", "Wood", "String", 9 );
+                "Purple", "Wood", InstrumentFamily.STRINGS, 9 );
         piano = new Piano("Baby Grand", 3400.00, 9500.00,
-                "Black", "Mahogany", "Keyboard", "Yamaha");
+                "Black", "Mahogany", InstrumentFamily.PERCUSSION, "Yamaha");
         sheetMusic = new SheetMusic("Adagio (in G minor)", 2.00, 4.99);
         trumpet = new Trumpet("C Trumpet", 134.00, 295.00,
-                "Gold", "Brass", "Wind", 9);
+                "Gold", "Brass", InstrumentFamily.BRASS, 9);
 
     }
 
@@ -85,7 +86,5 @@ public class ShopTest {
 
         assertEquals(6715.98, shop.calculateProfit(), .1);
     }
-
-
 
 }
