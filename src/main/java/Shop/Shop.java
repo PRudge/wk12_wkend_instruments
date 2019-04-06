@@ -33,5 +33,12 @@ public class Shop {
         this.stock.remove(stockItem);
     }
 
+    public double calculateProfit(){
+        double profit = 0;
+        for (ISell stockItem : this.stock){
+            profit += stockItem.calculateMarkUp(); //calculateMarkUp is the interface method common to all the stock
+        }
+        return profit;
+    }
 
 }
