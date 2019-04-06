@@ -14,7 +14,6 @@ public class PianoTest {
     }
 
 
-
     @Test
     public void canGetDescription(){
         assertEquals("Baby Grand", piano.getDescription());
