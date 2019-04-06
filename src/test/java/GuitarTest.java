@@ -9,7 +9,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Gibson", 34.00, 95.00,
+        guitar = new Guitar("Gibson", 340.00, 950.00,
                 "Purple", "Wood", "String", 9 );
     }
 
@@ -21,14 +21,21 @@ public class GuitarTest {
     }
 
     @Test
-    public void canGetbuyPrice(){
-        assertEquals(34.00, guitar.getBuyPrice(),.1);
+    public void canGetBuyPrice(){
+        assertEquals(340.00, guitar.getBuyPrice(),.1);
 
     }
 
     @Test
-    public void canGetsellPrice(){
-        assertEquals(95.00, guitar.getSellPrice(),.1);
+    public void canGetSellPrice(){
+        assertEquals(950.00, guitar.getSellPrice(),.1);
+
+    }
+
+    @Test
+    public void canSetSellPrice(){
+        guitar.setSellPrice(500.00);
+        assertEquals(500.00, guitar.getSellPrice(),.1);
 
     }
 
@@ -62,7 +69,7 @@ public class GuitarTest {
 
     @Test
     public void canGetMarkUp(){
-        assertEquals(61.00, guitar.calculateMarkUp(), .1);
+        assertEquals(610.00, guitar.calculateMarkUp(), .1);
     }
 
     // sound in Instrument - parent class

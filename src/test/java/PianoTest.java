@@ -9,8 +9,8 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano("Baby Grand", 34.00, 95.00,
-                "Black", "Mahogany", "Keyboard", 9 , "Yamaha");
+        piano = new Piano("Baby Grand", 3400.00, 9500.00,
+                "Black", "Mahogany", "Keyboard", "Yamaha");
     }
 
 
@@ -22,14 +22,21 @@ public class PianoTest {
     }
 
     @Test
-    public void canGetbuyPrice(){
-        assertEquals(34.00, piano.getBuyPrice(),.1);
+    public void canGetBuyPrice(){
+        assertEquals(3400.00, piano.getBuyPrice(),.1);
 
     }
 
     @Test
-    public void canGetsellPrice(){
-        assertEquals(95.00, piano.getSellPrice(),.1);
+    public void canGetSellPrice(){
+        assertEquals(9500.00, piano.getSellPrice(),.1);
+
+    }
+
+    @Test
+    public void canSetSellPrice(){
+        piano.setSellPrice(4500.00);
+        assertEquals(4500.00, piano.getSellPrice(),.1);
 
     }
 
@@ -51,7 +58,7 @@ public class PianoTest {
 
     }
 
-    //specific to guitar - check number of strings
+    //specific to piano - check make
 
     @Test
     public void canGetMake(){
@@ -63,7 +70,7 @@ public class PianoTest {
 
     @Test
     public void canGetMarkUp(){
-        assertEquals(61.00, piano.calculateMarkUp(), .1);
+        assertEquals(6100.00, piano.calculateMarkUp(), .1);
     }
 
     // sound in Instrument - parent class
