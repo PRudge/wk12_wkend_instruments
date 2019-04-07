@@ -12,10 +12,11 @@ public class Shop {
     private double till;
 
     private ArrayList<ISell> stock;
+    private ArrayList<Customer> customers;
 
-    public Shop(String shopName, Customer customer, double till){
+    public Shop(String shopName, int till){
         this.shopName = shopName;
-        this.customer = customer;
+        this.customers = new ArrayList<Customer>();
         this.till = till;
 
         this.stock = new ArrayList<>();
@@ -29,12 +30,8 @@ public class Shop {
         return this.stock;
     }
 
-    public Customer getCustomer() {
-        return this.customer;
-    }
 
-    public double getTill() {
-        return this.till;
+    public double getTill() { return this.till;
     }
 
 
@@ -60,7 +57,31 @@ public class Shop {
         return profit;
     }
 
-    public void checkOut(){
+    // customer interaction
+
+    public int countCustomers(){
+        return this.customers.size();
+    }
+
+    public void addCustomer(Customer customer){ //customer enters shop
+        this.customers.add(customer);
+    }
+
+    public void removeCustomer(Customer customer){ //customer leaves after shopping, or not
+        this.customers.remove(customer);
+
+    }
+
+
+    // checkout all the customers - closing time
+
+    public void checkOutQueue(){
+        for (Customer customer : this.customers) {
+            checkOut(customer);
+        }
+    }
+
+    public void checkOut(Customer customer){
         int total;
 
         ArrayList<ISell> basket = customer.getShoppingBasket();
@@ -77,6 +98,8 @@ public class Shop {
             }
         }
     }
+
+
 
     public int totUpBill(ArrayList<ISell> basket){
         int bill = 0;
