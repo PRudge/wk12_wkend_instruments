@@ -20,9 +20,9 @@ public class Guitar extends Instrument implements IPlay {
         return "Guitar sound: " + sound;
     }
 
-    public double calculateSalesPrice(){
+    public double getSalesPrice(){
         double salePriceDiscount = getSellPrice()/5;
-        return getSellPrice() - salePriceDiscount - getBuyPrice();
+        return getSellPrice() - salePriceDiscount;
     }
 
 

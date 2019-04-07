@@ -73,11 +73,9 @@ public class PianoTest {
         assertEquals(6100.00, piano.calculateMarkUp(), .1);
     }
 
-    // added get sales price (10% off)
-
     @Test
     public void canGetSalesPrice(){
-        assertEquals(5150.00, piano.calculateSalesPrice(), .1);
+        assertEquals(8550.00, piano.getSalesPrice(), .1);
     }
 
     // sound in Instrument - parent class

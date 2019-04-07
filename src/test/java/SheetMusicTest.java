@@ -50,6 +50,6 @@ public class SheetMusicTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(2.49, sheetMusic.calculateSalesPrice(), .1);
+        assertEquals(4.49, sheetMusic.getSalesPrice(), .1);
     }
 }

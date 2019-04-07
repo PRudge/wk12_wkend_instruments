@@ -4,5 +4,7 @@ public interface ISell {
 
     double calculateMarkUp();
 
-    double calculateSalesPrice();
+    double getSalesPrice();
+
+    double getSellPrice();
 }

@@ -50,6 +50,6 @@ public class PlectrumTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(3.99, plectrum.calculateSalesPrice(), .1);
+        assertEquals(4.49, plectrum.getSalesPrice(), .1);
     }
 }

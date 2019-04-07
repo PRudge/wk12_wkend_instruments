@@ -77,7 +77,7 @@ public class GuitarTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(420.00, guitar.calculateSalesPrice(), .1);
+        assertEquals(760.00, guitar.getSalesPrice(), .1);
     }
 
     // sound in Instrument - parent class

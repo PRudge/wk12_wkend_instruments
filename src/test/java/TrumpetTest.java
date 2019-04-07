@@ -77,7 +77,7 @@ public class TrumpetTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(131.50, trumpet.calculateSalesPrice(), .1);
+        assertEquals(265.5, trumpet.getSalesPrice(), .1);
     }
 
     // sound in Instrument - parent class

@@ -51,7 +51,7 @@ public class DrumSticksTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(8.79, drumSticks.calculateSalesPrice(), .1);
+        assertEquals(10.79, drumSticks.getSalesPrice(), .1);
     }
 
 

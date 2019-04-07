@@ -37,8 +37,10 @@ public abstract class StockItem implements ISell {
         return getSellPrice() - getBuyPrice();
     }
 
-    public double calculateSalesPrice(){
+    public double getSalesPrice(){
         double salePriceDiscount = getSellPrice()/10;
-        return getSellPrice() - salePriceDiscount - getBuyPrice();
+        return getSellPrice() - salePriceDiscount;
     }
+
+
 }

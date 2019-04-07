@@ -51,7 +51,7 @@ public class CornetMuteTest {
 
     @Test
     public void canGetSalesPrice(){
-        assertEquals(20.49, cornetMute.calculateSalesPrice(), .1);
+        assertEquals(40.49, cornetMute.getSalesPrice(), .1);
     }
 
 
