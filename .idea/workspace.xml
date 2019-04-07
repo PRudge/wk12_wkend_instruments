@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3a5d000-d43d-46e4-b019-b5a3cfe6636d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3a5d000-d43d-46e4-b019-b5a3cfe6636d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+            <state relative-caret-position="466">
+              <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1918#1919#0" expanded="true" />
@@ -308,7 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554653972701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554654733694" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -375,18 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 08m 10s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 08m 41s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 09m 13s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 10m 30s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 11m 00s.xml">
       <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
     </history-entry>
@@ -403,6 +388,18 @@
       <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 15m 08s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 18m 10s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 18m 46s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 18m 58s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 17h 19m 35s.xml">
       <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -424,7 +421,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32950193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32950193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+        <state relative-caret-position="466">
+          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1918#1919#0" expanded="true" />
