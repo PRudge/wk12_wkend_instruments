@@ -8,17 +8,17 @@ import java.util.ArrayList;
 public class Shop {
 
     private String shopName;
-    private ArrayList<ISell> stock;
     private Customer customer;
     private double till;
 
+    private ArrayList<ISell> stock;
 
     public Shop(String shopName, Customer customer, double till){
         this.shopName = shopName;
-        this.stock = new ArrayList<>();
         this.customer = customer;
         this.till = till;
 
+        this.stock = new ArrayList<>();
     }
 
     public String getShopName(){
@@ -55,7 +55,7 @@ public class Shop {
     public double calculateProfit(){
         double profit = 0;
         for (ISell stockItem : this.stock){
-            profit += stockItem.calculateMarkUp(); //calculateMarkUp is the interface method common to all the stock
+            profit += stockItem.calculateMarkUp(); //calculateMarkUp in interface ISell
         }
         return profit;
     }
@@ -67,7 +67,10 @@ public class Shop {
         total = this.totUpBill(basket);
 
         if (customer.checkWallet(total)){
-            customer.payBill(total); // this empties their shopping basket too
+            for (ISell item : basket){ // remove item from stock as customer is going to buy
+                this.removeItem(item);
+            }
+            customer.payBill(total); // this empties the customer shopping basket too
             this.addToTill(total);
             for (ISell item : basket){ // only removes items if enough money to pay
                 this.removeItem(item);
@@ -79,7 +82,7 @@ public class Shop {
         int bill = 0;
 
         for (ISell item : basket){
-            bill += item.getSalesPrice();
+            bill += item.getSalesPrice(); //getSalesPrice in ISell/StockItem
 
         }
         return bill;

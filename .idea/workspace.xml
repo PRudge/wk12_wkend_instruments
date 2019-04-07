@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3a5d000-d43d-46e4-b019-b5a3cfe6636d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Interfaces/ISell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Interfaces/ISell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Shop/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Shop/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Stock/Instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Stock/Instruments/Guitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Stock/StockItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Stock/StockItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/CornetMuteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/CornetMuteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DrumSticksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/DrumSticksTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/GuitarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PianoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PianoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlectrumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PlectrumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SheetMusicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SheetMusicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ShopTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TrumpetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TrumpetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ISell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/Instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stock/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock/StockItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CornetMuteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CornetMuteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrumSticksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrumSticksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlectrumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlectrumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="167">
+              <caret line="69" column="92" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
@@ -121,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+            <state relative-caret-position="346">
+              <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1433#1434#0" expanded="true" />
@@ -231,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/test/java/CornetMuteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlectrumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PianoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
       </list>
     </option>
   </component>
@@ -336,7 +310,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554647909498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554648211907" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -403,12 +377,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 18m 47s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 22m 22s.xml">
-      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 22m 37s.xml">
       <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
     </history-entry>
@@ -433,10 +401,15 @@
     <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 37m 30s.xml">
       <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 38m 31s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_wk12_wkendHw_instruments_wk12_wkendHw_instruments_test - 2019.04.07 at 15h 42m 17s.xml">
+      <configuration name="All in com.codeclan_wk12_wkendHw_instruments.wk12_wkendHw_instruments.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="25" width="1280" height="875" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -452,8 +425,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32950193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32950193" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39974457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -686,10 +659,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="167">
+          <caret line="69" column="92" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
@@ -700,20 +687,6 @@
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#1617#1618#0" expanded="true" />
             <element signature="e#1650#1651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
           </folding>
         </state>
       </provider>
